@@ -1,0 +1,61 @@
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<p class="intro">
+Hello, I'm
+</p>
+
+<h1>
+
+Arjey A.
+
+<span>De Guzman</span>
+
+</h1>
+
+<h2>
+
+Aspiring Web Developer
+
+</h2>
+
+<p>
+
+Bachelor of Science in Information Technology graduate
+majoring in Web and Mobile Development.
+
+I enjoy building responsive websites, modern user interfaces,
+and practical web applications that solve real-world problems.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn-primary">
+
+View Projects
+
+</a>
+
+<a href="#" class="btn-secondary">
+
+Download CV
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<div class="profile-placeholder">
+
+AD
+
+</div>
+
+</div>
+
+</section>
