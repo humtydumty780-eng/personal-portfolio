@@ -1,1 +1,48 @@
 /* home.css */
+
+/* ========================================
+   TECH STACK
+======================================== */
+
+.section{
+    padding:100px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    text-align:center;
+    max-width:650px;
+    margin:0 auto 50px;
+    color:#64748B;
+    line-height:1.7;
+}
+
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.tech-card{
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:35px;
+    text-align:center;
+    font-weight:600;
+    transition:.3s;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.tech-card:hover{
+    transform:translateY(-8px);
+    border-color:var(--primary);
+    box-shadow:0 20px 40px rgba(37,99,235,.15);
+}
+
