@@ -259,3 +259,47 @@ transform:translateY(-8px);
     text-decoration:underline;
 }
 
+
+/* ========================================
+   CONTACT
+======================================== */
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.contact-info h3{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.contact-info > p{
+    color:#64748B;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.contact-item{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    margin-bottom:20px;
+}
+
+.contact-item span{
+    color:#64748B;
+}
+
+.contact-actions{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-actions a{
+    text-align:center;
+}
+
