@@ -1,1 +1,61 @@
 /* footer.css */
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.footer{
+    margin-top:80px;
+    background:#0F172A;
+    color:#fff;
+    padding:60px 20px 25px;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+.footer-brand h3{
+    font-size:1.5rem;
+    margin-bottom:10px;
+}
+
+.footer-brand p{
+    color:#94A3B8;
+}
+
+.footer-links,
+.footer-socials{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.footer a{
+    color:#CBD5E1;
+    text-decoration:none;
+    transition:.25s ease;
+}
+
+.footer a:hover{
+    color:#60A5FA;
+    transform:translateX(3px);
+}
+
+.footer-bottom{
+    max-width:1200px;
+    margin:50px auto 0;
+    padding-top:25px;
+    border-top:1px solid #334155;
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#94A3B8;
+    font-size:.9rem;
+}
+
